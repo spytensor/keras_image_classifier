@@ -8,6 +8,10 @@
 
 个人博客：[超杰](http://www.spytensor.com/)
 
+要求：
+
+`keras==2.2.0  tensorflow==1.8.0` （尽量保持一致，版本不同带来问题，请自行谷歌）
+
 <h4 id="1">1. 更新</h4>
 
 2018年12月29日 第一次更新：更新全部文档和代码
@@ -297,5 +301,4 @@ if __name__ == "__main__":
 2. 修改 `config.py` 中 `train_data`，`test_data` 路径，其中 test_data 示例：`test_data = "../data/all/traffic-sign/test/00003/"`
 3. 训练：`python main.py`
 4. 预测：修改 `main.py` 中 76 行的 `mode = "test"` 并执行 `python main.py`
-
 
